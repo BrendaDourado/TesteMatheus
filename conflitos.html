@@ -7,6 +7,16 @@
     <title>Lidando com conflitos</title>
 </head>
 <body>
-    
+    <h1>Lidando com conflitos</h1>
+    <p>Conflitos são os famosos problemas que irão acontcer durante as nossas tentativas de pul, push, merge ou basicamente qualquer comando que tentarmos por no git.</p>
+    <p>Cada conflito tem um jeito de resolver, algumas das soluções possíveis são:</p>
+    <ul>
+        <li>Resolver o problema de uma página manualmente, alterando o seu conteúdo e após finalizar use o seguinte:
+            git add OU git add nome_do_arquivo
+        </li>
+        <li>Você pode remover o arquivo que está dando problema com o comando: git rm nome_do_arquivo</li>
+        <li>As vezes é necessário aceitar atualizações vindas de agentes externos. Para habilitar essa opção use o comando: git checkout --theirs nome_do_arquivo</li>
+        <li>Também é possível alterar a configuração para aceitar alteração local com o comando: git checkout --ours nome_do_arquivo</li>
+    </ul>
 </body>
 </html>
