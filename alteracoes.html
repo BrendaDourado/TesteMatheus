@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adicionando alterações</title>
+</head>
+<body>
+    
+    <h1>Adicionando alterações</h1>
+    <p>Agora que estamos prontos para codar com nossa pasta na máquina e o repositório no GitHub é hora de programar!</p>
+    <p>Quando você estiver com a sua parte inicialmente feita e quiser mandar para o repositório iremos utilizar primeiramente a função <strong>git add</strong>.</p>
+    <p>Primeiro abra o terminal do git na IDE, no caso do VS Code ele será aberto ao apertar Ctrl + Shift + ". Essa função possui algumas versões. São elas:
+        
+        <ul>
+            <li>Para adicionar mudanças em uma página em especifíco:
+                git add nome_do_arquivo</li>
+            <li>Para adicionar as alterações na pasta local:
+                git add.</li>
+            <li>Adicionar todas as mudanças feitas:
+                git add -A</li>
+            <li>Para desfazer o add use o seguinte comando:
+                git reset OU git reset nome_do_arquivo</li>
+        
+        </ul>
+    
+    <p>Após realizar o seu comando add vamos verificar se deu tudo certo. Utilize o comando <strong>git status</strong> deve aparecer uma mensagem de confirmação de que foi adicionada.</p>
+    <p>Ao finalizar a adição do seu arquivo iremos para o <strong>commit</strong> isso irá confirmar o envio das suas mudanças. Utilizamos o código:
+    <strong>commit -m "comentário da alteração"</strong> é importante você adicionar um comentário coerente com o que foi feito para ajudar o seu time no processo de construção do programa.</p>
+    <p>Feito tudo isso vamos enviar para o repostiório remoto. Para isso vamos usar o comando:
+    <strong>git push</strong> ele irá ficar assim mesmo, sem o link do repositório ou nome do arquivo. Pois irá enviar tudo que foi comitado por você.
+    </p>
+    <p>Agora que você já sabe como adicionar as suas alterações ao repositório do GitHub vamos ver como obter as alterações feitas pelos seus colegas de time.</p>
+    <p>Para verificarmos se há novas alterações no repostirório utilizamos da função <strong>git fetch</strong> ele irá irformar no terminal se foram feitas atualizações no repostiório por outras pessoas.</p>
+    <p>Agora para você adicionar ass alterações feitas pelos outros na sua máquina vamos usar do comando <strong>git 
+    pull</strong> assim tudo que foi atualizado no repositório será salvo na sua máquina.</p>
+
+</body>
+</html>

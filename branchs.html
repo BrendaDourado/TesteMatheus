@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Trabalhando com branchs</title>
+</head>
+<body>
+    <h1>Trabalhando com branchs</h1>
+    <p>As branchs servem para que durante o desenvolvimento do programa possam ser desenvolvidas funcionalidades extras que serão incorporadas a master(linha principal de códigos do programa). Toda vez que você cria um repostiório é criada uma branch, a main, depois disso vamos criar uma nova branch. Temos algumas opções para realizar essa tarefa. </p>
+    <p>Para criarmos uma nova branch podemos usar os seguintes comandos:</p>
+    <ul>
+        <li>git branch nome_da_branch --- esse comando apenas cria a nova branch;</li>
+        <li>Mesmo criando uma nova branch é necessários irmos para ela, pois por padrão, e utilizando o comando acima não vamos diretamente para a nova branch. Para trocar de branch usamos: <strong>git checkout nome_da_branch</strong> .</li>
+        <li>Mas para nos poupar de tanto trabalho podemos usar: <strong>git checkout -b nome_da_branch</strong> --- esse comando irá automáticamente criar uma nova branch e já mudar sua localização para essa nova branch.</li>
+        <li>Caso você queira excluir a branch que está usa-se esse comando: <strong>git branch -d nome_da_branch         </strong>.</li>
+        <li>Agora o item mais <strong>importante</strong> de todos. Para que os outros participantes do seu time tenham acesso a essa branch que você criou é necessário usar o seguinte comando: <strong>git push --set-upstream origin nome_da_branch</strong>.</li>
+    </ul>
+</body>
+</html>
